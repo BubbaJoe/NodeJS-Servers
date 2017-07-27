@@ -1,0 +1,11 @@
+{
+  "name": "video app",
+  "version": "1.0.0",
+  "description": "Simple video streamer server",
+  "main": "app.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Joe Williams - @BubbaJoe/@shadowkingbubba",
+  "license": "MIT",
+}

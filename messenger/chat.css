@@ -1,0 +1,19 @@
+#me {
+    text-align:right;
+    color:grey;
+}
+
+#other {
+    text-align:left;
+    color:blue;
+}
+
+div.chatbox {
+    width: 350px;
+}
+
+div.center {
+    margin: auto;
+    border: 3px solid grey;
+    padding: 10px;
+}

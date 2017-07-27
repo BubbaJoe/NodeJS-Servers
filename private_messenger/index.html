@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Global Messenger</title>
+    <link rel="stylesheet" type="text/css" href="chat.css"/>
+</head>
+<body>
+    <div class="usernameWrap">
+        <p> Enter a username:<p>
+        
+        <input size="36" id="username"></input>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="contentWrap">
+        <div style="text-align:center;">
+            <h2>Global Chatroom</h2>
+        </div>
+        <div class="chatbox center">
+            <div id="chat" style="overflow-y: scroll; height:400px;"></div>
+            <span>
+                <input size="36" id="message"></input>
+                <button id="send" type="button">Send</buttton>
+            </span>
+        </div>
+        <div id="users"></div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>

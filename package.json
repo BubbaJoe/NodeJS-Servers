@@ -1,0 +1,22 @@
+{
+  "name": "web-servers",
+  "version": "1.0.0",
+  "description": "Simple web servers designed to run on any computer with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Joe Williams - @BubbaJoe/@shadowkingbubba",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "formidable": "latest",
+    "guid": "latest",
+    "mime": "latest",
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "mysql": "latest",
+    "socket.io": "latest",
+    "unsplash-js": "latest"
+  }
+}
